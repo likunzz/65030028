@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เกม</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>เกมเล็ก ๆ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="game.html">เกม</a></li>
+                <li><a href="cv.html">ข้อมูลส่วนตัว</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>เกมสุ่มตัวเลข</h2>
+            <p>ลองเดาตัวเลขระหว่าง 1 ถึง 10</p>
+            <input type="number" id="guess" min="1" max="10">
+            <button onclick="checkGuess()">เดา</button>
+            <p id="result"></p>
+        </section>
+    </main>
+    <footer>
+        <p>คมกฤต เดชธนโชติกูล 65030028</p>
+    </footer>
+</body>
+</html>
